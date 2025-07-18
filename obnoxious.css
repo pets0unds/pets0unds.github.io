@@ -1,0 +1,58 @@
+
+
+:root {
+  --bg: #040404;
+  --maintext: #ffffff;
+  --accent1: #afbfd1;
+  --accent2: #4a33a8;
+  --accent3: #dabfcc;
+}
+
+
+body {
+  background: url('/assets/stars3.gif');
+  color: var(--maintext);
+  font-family: arial; 
+  font-size: 12pt; 
+}
+
+
+
+/* obnoxious css */
+#sidebar, #content {
+  border: 1px solid var(--accent1);
+  box-shadow: 3px 3px 0px var(--accent3), -3px -3px 0px var(--accent2);
+  /*background: var(--bg);*/
+}
+
+a {
+  color: var(--accent3);
+}
+
+button {
+  background-color: var(--bg);
+  color: var(--accent1);
+  border: 1px solid var(--accent1);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
+
+#readability-msg {
+  background: #eeeeee;
+  color: #111111;
+  border: 3px blue solid; 
+  font-size: 10pt;
+  padding: 5px; 
+  line-spacing: 1.5em;
+}
+
+#readability-msg i {
+  color: red;  
+}
+
+#readability-msg a {
+  color: navy;  
+}
+
